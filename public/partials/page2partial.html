@@ -1,0 +1,50 @@
+<form class="page2form" ng-controller="page2controller" legend="PERSONAL INFORMANTION">
+		<p class="underline">Unless noted, all fields are required.</p>
+		<h4 class="fast_free">PERSONAL INFORMATION</h4>
+			<ul>
+				<li class="inputs">
+					First Name:
+					<input class="inputbox" type="text" data-ng-model="input.firstName" />
+				</li>
+				<li class="inputs">
+					Last Name:
+					<input class="inputbox" type="text" data-ng-model="input.lastName" />
+				</li>
+				<li class="inputs">
+					Current Address:
+					<input class="inputbox" type="text" data-ng-model="input.currentAddress" />
+				</li>
+				<li class="inputs">
+					Current Address2:
+					<input class="inputbox" type="text" data-ng-model="input.currentAddress2" />
+				</li>
+				<li class="inputs">
+					City:
+					<input class="inputbox" type="text" data-ng-model="input.city" />
+				</li>
+				<li class="inputs">
+					State:
+					<input class="inputbox" type="text" data-ng-model="input.State" />
+				</li>
+				<li class="inputs">
+					ZIP:
+					<input class="inputbox" type="text" data-ng-model="input.ZIP" />
+				</li>
+				<li class="inputs">
+					Have you lived for more than two years at your current address?
+					<br>
+					<input type="radio" data-ng-model="input.radio" checked />Yes
+					<input type="radio" data-ng-model="input.radio" />No
+				</li>
+				<li class="inputs">
+					Phone:
+					<input class="inputbox" type="text" data-ng-model="input.Phone" />
+				</li>
+				<li class="inputs">
+					Email:
+					<input class="inputbox" type="text" data-ng-model="input.Email" />
+				</li>
+			</ul>
+
+		</form>
+		<button class='btn btn-primary btn-sm' ng-click='Submit()'>Submit</button>

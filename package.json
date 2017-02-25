@@ -1,0 +1,19 @@
+{
+  "name": "verification",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongojs": "^2.4.0",
+    "parser": "^0.1.4",
+    "path": "^0.12.7"
+  }
+}
